@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    padding: 50px;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 25px;
+    height: 100px;
+    background-color: #ccc;
+    cursor: grab;
+}
+.item.dragging {
+    opacity: 0.5;
+}
+h2{
+    padding-top: 5px;
+    background-color: rgb(152, 152, 255);
+}
+#drop-container{
+    background-color: rgb(152, 152, 255);
+}
+.success-message {
+    margin: 10px;
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+button{
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px 25px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+}
